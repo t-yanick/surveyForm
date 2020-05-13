@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Survey</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+  </head>
+  <body>
+    <div class="fixed">
+      <h1 id="title">Pokemon Survey</h1>
+      <p id="description">
+        This is a basic survey that takes into account, your opinions on the Pokemon game series. It will focus mostly on the Kanto region.
+      </p>
+      <div class="transparent">
+      <form id="survey-form">
+        <fieldset>
+        <label for="name" id="name-label"><i class="far fa-smile-beam"></i> Name:</label>
+        <input id="name" type="text" placeholder="Enter your name." required>
+        </fieldset>
+        <fieldset>
+          <label for="email" id="email-label"><i class="fas fa-envelope-open-text"></i> Email:</label>
+          <input id="email" type="email" placeholder="Enter your email address." required>
+        </fieldset>
+        <fieldset>
+        <label for="number" id="number-label"><i class="fas fa-birthday-cake"></i> Number:</label>
+        <input id="number" type="number" placeholder="Enter your age." required max="125" min="1">
+        </fieldset>
+    <fieldset>
+      <label for="dropdown">Which starter do you choose for being your pokemon partner?</label><br>
+      <select id="dropdown">
+       <option selected="true" disabled="disabled">Select an option</option>
+       <option value="bulbasaur">bulbasaur</option>
+       <option value="charmander">charmander</option>
+       <option value="Squirtle">Squirtle</option>
+     </select>
+    </fieldset>
+    <fieldset>
+      <label>What region do you prefer?</label><br><br>
+      <ul class="radio-buttons">
+        <li><input type="radio" id="region1" name="region" value="region1">
+          <label for="region1">Kanto</label>
+          <div class="check">
+        </li><br>
+        <li><input type="radio" id="region2" name="region" value="region2">
+          <label for="region2">Joto</label>
+          <div class="check">
+        </li><br>
+      <li><input type="radio" id="region3" name="region" value="region3">
+          <label for="region3">Hoen</label>
+          <div class="check">
+        </li><br>
+      </ul>
+    </fieldset>
+    <fieldset>
+        <legend>Select all the pokemon types that you had have in your team?</legend>
+      <ul class="checkboxes">
+        <li><input class="checkbox" id="type1" type="checkbox" name="pokemon_type" value="fire">
+          <label for="type1">Fire</label>
+          <div class="check"></div>
+        </li>
+        <li><input class="checkbox" id="type2" type="checkbox" name="pokemon_type" value="water">
+          <label for="type2">Water</label>
+          <div class="check"></div>
+        </li>
+        <li><input class="checkbox" id="type3" type="checkbox" name="pokemon_type" value="plant">
+          <label for="type3">Plant</label>
+          <div class="check"></div>
+        </li>
+        <li><input class="checkbox" id="type4" type="checkbox" name="pokemon_type" value="electric">
+          <label for="type4">Electric</label>
+          <div class="check"></div>
+        </li>
+        <li><input class="checkbox" id="type5" type="checkbox" name="pokemon_type" value="dragon">
+          <label for="type5">Dragon</label>
+          <div class="check"></div>
+        </li>
+        <li><input class="checkbox" id="type6" type="checkbox" name="pokemon_type" value="poison">
+          <label for="type6">Poison</label>
+          <div class="check"></div>
+        </li>
+      </ul>
+    </fieldset>
+    <fieldset>
+      <textarea id="form_message" name="message" placeholder="Add your message." rows="4" required="required"></textarea>
+    </fieldset>
+    <input type="submit" id="submit" name="submit" value="submit"></input>
+      </form>
+     </div>
+     <br>
+     <br>
+     <br>
+    </div>
+  </body>
+</html>
+    <!--
+
+    Hello Camper!
+
+    For now, the test suite only works in Chrome!
+    Please read the README below in the JS Editor before beginning.
+    Feel free to delete this message once you have read it.
+    Good luck and Happy Coding!
+
+    - The freeCodeCamp Team
+
+    -->
+    <script  src="js/index.js"></script>
+  </body>
+</html>
